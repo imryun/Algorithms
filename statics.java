@@ -23,6 +23,10 @@ public class statics {
     System.out.println( "sqrt(-2): " + sqrt( -2.0)); // NaN
     // hypotenuse
     System.out.println( "hypotenuse(1,1): " + hypotenuse( 1, 1));
+    System.out.println( "hypotenuse(-1,0): " + hypotenuse( -1, 0));
+    // Harmonic number
+    System.out.println( "harmonic(x1): "+harmonic(x1));
+    System.out.println( "harmonic(x2): "+harmonic(x2));
     
   }
   
